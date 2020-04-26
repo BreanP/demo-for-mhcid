@@ -129,10 +129,20 @@
       }
       
       .panel-body {
-          -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-          min-height: 1px;
-          padding: 1.25rem;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+      }
+      
+      .img {
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        overflow: hidden;
+        vertical-align: middle;
+        flex-shrink: 0;
+        width: 100%;
+        height: 225;
       }
       
     </style>
@@ -154,7 +164,9 @@
           <div class="row">
             <div class="column">
               <div class="panel">
-                <img src="//cbp.s3.amazonaws.com/img/0/0/4/7/1/9/tn050001-the-national-boxer-12-vinyl-d-5e8365f8.png" alt="Boxer" class="pointer" onclick="productsZoom(0)" data-zoom="//cbp.s3.amazonaws.com/img/0/0/4/7/1/9/tn050001-the-national-boxer-12-vinyl-z-5e8365f9.png">
+                <div class="img">
+                  <img src="//cbp.s3.amazonaws.com/img/0/0/4/7/1/9/tn050001-the-national-boxer-12-vinyl-d-5e8365f8.png" alt="Boxer" class="pointer" onclick="productsZoom(0)" data-zoom="//cbp.s3.amazonaws.com/img/0/0/4/7/1/9/tn050001-the-national-boxer-12-vinyl-z-5e8365f9.png">
+                </div>
                 <div class="panel-body">
                   <p class="panel-text">
                     "Fake Empire"<br>"Mistaken for Strangers"<br>"Apartment Story"
@@ -162,8 +174,30 @@
                 </div>
               </div>
             </div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">
+              <div class="panel">
+                <div class="img">
+                  <img src="//cbp.s3.amazonaws.com/img/0/0/4/8/3/9/tn050010-the-national-high-violet-2x12-vinyl-d-5e836440.png" alt="High Violet" class="pointer" onclick="productsZoom(0)" data-zoom="//cbp.s3.amazonaws.com/img/0/0/4/8/3/9/tn050010-the-national-high-violet-2x12-vinyl-z-5e836441.png">
+                </div>
+                <div class="panel-body">
+                  <p class="panel-text">
+                    "Terrible Love"<br>"Sorrow"<br>"Anyone's Ghost"
+                  <p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="panel">
+                <div class="img">
+                  <img src="//cbp.s3.amazonaws.com/img/0/0/4/8/4/5/tn050016-the-national-trouble-will-find-me-2x12-vinyl-d-5e836358.png" alt="Trouble Will Find Me" class="pointer" onclick="productsZoom(0)" data-zoom="//cbp.s3.amazonaws.com/img/0/0/4/8/4/5/tn050016-the-national-trouble-will-find-me-2x12-vinyl-z-5e836359.png">
+                </div>
+                <div class="panel-body">
+                  <p class="panel-text">
+                    "I should Live in Salt"<br>"Don't Swallow the Cap"<br>"I Need My Girl"
+                  <p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
