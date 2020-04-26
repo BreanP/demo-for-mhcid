@@ -11,6 +11,10 @@
     <title>Brean's Favorite Band</title>
     
     <style>
+      *, ::after, ::before {
+        box-sizing: border-box;
+      }
+      
       html {
         
       }
@@ -19,8 +23,8 @@
       
       }
       
-      main, section {
-      
+      footer, main, section {
+        display: block;
       }
       
       div {
@@ -40,11 +44,16 @@
       }
       
       .intro {
-        
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0;
+        background-color: #fff;
+        padding: 4rem 2rem;
+        border-radius: .3rem;
       }
       
       .text-center {
-        
+        text-align: center!important;
       }
       
       .library {
